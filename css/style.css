@@ -82,7 +82,7 @@ img {
 
 @media (max-width: 28.75em) {
   .nav {
-    justify-content: center;
+    justify-content: left;
   }
 
   .nav-list {
@@ -150,7 +150,7 @@ img {
   margin-bottom: 6rem;
 }
 
-@media (max-width: 30.625em) {
+@media (max-width: 300.625em) {
   .projects-section {
     padding: 6rem 1rem;
   }
