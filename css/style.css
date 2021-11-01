@@ -26,6 +26,7 @@ body {
 }
 
 h1 {
+  padding-top: rem;
   font-size: 6rem;
 }
 
@@ -35,7 +36,8 @@ h2 {
 
 h6 {
   font-size: 4.2rem;
-  color: white
+  color: white;
+  margin-left: 54.375rem;
 }
 
 h4 {
@@ -44,30 +46,31 @@ h4 {
 }
 
 h5 {
-  font-size: 2.5rem;
+  text-align: center
+  color white;
 }
 
-h6 {
-  font-size: 4.2rem;
-  color: white
-}
-
-p {
+a {
   font-size: 2.5rem;
-  color: white
+  color: white;
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
 }
 
-a {
+p {
   text-decoration: none;
   color: white;
+  font-size: 2.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+  margin-left: 56rem;
 }
 
 img {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
@@ -77,12 +80,9 @@ img {
   display: flex;
   justify-content: flex-end;
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   background: rgb(63, 51, 114);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
 }
 /*nav list style horizontal*/
 .nav-list {
@@ -97,9 +97,8 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--main-blue);
+  background: blueviolet;
 }
-
 /* Welcome section */
 
 .welcome-section {
@@ -155,10 +154,15 @@ img {
 
 
 .contact-section {
-  background-color: black
+  background-color: black;
 }
 
-
+.coffee {
+  margin-right: 50rem;
+}
+.contact-links {
+  margin-left: 73rem;
+}
 /* Footer */
 
 footer {
@@ -170,6 +174,8 @@ footer {
   border-top: 4px solid var(--main-teal);
   color: white
 }
+
+
 
 footer > p {
   margin: 2rem;
