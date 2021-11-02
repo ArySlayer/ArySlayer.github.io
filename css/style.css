@@ -1,6 +1,6 @@
 body {
  
-  background-color: rgb(68, 63, 63);
+  background-image: linear-gradient(5deg,teal,#5656b1,black);
 }
 
 /* Base reset */
@@ -127,7 +127,6 @@ img {
   padding: 10rem 2rem;
   font-weight: 100vh;
   font-size: 6rem;
-  background: darkslategray
 }
 
 /* "Automagic" image grid using no media queries */
@@ -151,14 +150,6 @@ img {
   }
 }
 
-
-.contact-section {
-  background-color: black;
-}
-
-.contact-links {
-
-}
 /* Footer */
 
 footer {
@@ -166,7 +157,6 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: black;
   border-top: 4px solid var(--main-teal);
   color: white
 }
