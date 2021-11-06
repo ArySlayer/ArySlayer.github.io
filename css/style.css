@@ -37,7 +37,6 @@ h2 {
 h6 {
   font-size: 4.2rem;
   color: white;
-  margin-left: 6.5rem;
 }
 
 h4 {
@@ -64,7 +63,6 @@ p {
   
   color: white;
   font-size: 2.6rem;
-  margin-left: 5rem;
   
 }
 
@@ -77,11 +75,12 @@ img {
 
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   position: fixed;
   width: 100%;
   background: rgb(63, 51, 114);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  padding-left: 13px;
 }
 /*nav list style horizontal*/
 .nav-list {
@@ -157,8 +156,8 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  border-top: 4px solid var(--main-teal);
-  color: white
+  border-top: 4px solid
+  color: white;
 }
 
 
@@ -171,7 +170,7 @@ footer i {
   vertical-align: middle;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 28.75rem) {
   footer {
     flex-direction: column;
     text-align: center;
