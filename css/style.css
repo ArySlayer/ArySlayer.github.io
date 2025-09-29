@@ -34,21 +34,23 @@ h2 {
   font-size: 4.2rem;
 }
 
+
+
+h3 {
+  text-align: center;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+h5 {
+  text-align: center;
+  color white;
+}
+
 h6 {
   font-size: 4.2rem;
   color: white;
 }
-
-h4 {
-  text-align: center
-  color white;
-}
-
-h5 {
-  text-align: center
-  color white;
-}
-
 a {
   font-size: 2.5rem;
   color: white;
@@ -112,13 +114,14 @@ img {
   
 }
 
-/* Projects section */
+/* chat-commands section */
 
-.projects-section {
+.chat-commands-section {
   text-align: center;
   padding: 6rem 2rem;
   font-weight: 600;
   font-size: 5.5rem;
+  background-color: #5656b1;
 }
 /*Header*/
 .aboutme-section {
@@ -126,10 +129,11 @@ img {
   padding: 10rem 2rem;
   font-weight: 100vh;
   font-size: 6rem;
+  background-color: #0e0e10;
 }
 
 /* "Automagic" image grid using no media queries */
-.projects-grid {
+.chat-commands-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 2rem;
@@ -140,11 +144,12 @@ img {
 }
 
 @media (max-width: 30rem) {
-  .projects-section {
+  .chat-commands-section
+ {
     padding: 1rem 1rem;
   }
 
-  .projects-grid {
+  .chat-commands-grid {
     grid-template-columns: 1fr;
   }
 }
