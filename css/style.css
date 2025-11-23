@@ -13,6 +13,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 body {
@@ -46,6 +47,8 @@ body {
   box-shadow: var(--glow-soft);
   z-index: 999;
   width: auto;
+
+  text-align: center;
 }
 
 .nav-list {
@@ -116,6 +119,8 @@ h3 {
   padding: 1rem;
   background: rgba(0, 200, 255, 0.15);
   box-shadow: var(--glow-soft);
+  text-decoration: none;
+  color: white;
 }
 
 /* ABOUT ME */
@@ -140,6 +145,7 @@ footer {
   background: rgba(255, 255, 255, 0.05);
   text-align: center;
   backdrop-filter: blur(10px);
+  overflow: hidden;
 }
 
 footer p, footer a {
