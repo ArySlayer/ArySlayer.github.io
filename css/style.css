@@ -146,6 +146,7 @@ footer {
   text-align: center;
   backdrop-filter: blur(10px);
   overflow: hidden;
+  margin-bottom: 5rem;
 }
 
 footer p, footer a {
